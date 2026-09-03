@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+
+    background-color: #020b14;
+
+    background-image:
+        radial-gradient(
+            circle at 10% 20%,
+            rgba(0, 200, 255, 0.18),
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 90% 10%,
+            rgba(40, 120, 255, 0.16),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 50% 100%,
+            rgba(0, 230, 255, 0.10),
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #020812 0%,
+            #061522 45%,
+            #03101b 100%
+        );
+
+    background-attachment: fixed;
+}
+
+
+/* Header */
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.title-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title-icon {
+    font-size: 25px;
+}
+
+.top-header h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.routine {
+    font-size: 13px;
+    color: #718494;
+}
+
+
+/* Cards */
+
+.quiz-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.quiz-card {
+    position: relative;
+    min-height: 215px;
+    padding: 17px;
+    border: 1px solid #243746;
+    border-radius: 17px;
+    background: #111f2e;
+    overflow: hidden;
+    transition: 0.2s ease;
+}
+
+
+/* Round design on top-right */
+
+.quiz-card::after {
+    content: "";
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    right: -50px;
+    top: -50px;
+    border-radius: 50%;
+    background: #193344;
+}
+
+
+/* Top */
+
+.card-top {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 31px;
+    height: 31px;
+
+    border-radius: 9px;
+    border: 1px solid #1d526d;
+
+    background: #102f40;
+    color: #5bc7ef;
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.quiz-label {
+    color: #668398;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+
+/* Subject */
+
+.quiz-card h2 {
+    position: relative;
+    z-index: 2;
+
+    margin-top: 48px;
+
+    font-size: 19px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+
+/* Bottom */
+
+.card-bottom {
+    position: absolute;
+
+    left: 17px;
+    right: 17px;
+    bottom: 16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #718798;
+    font-size: 12px;
+}
+
+.arrow {
+    width: 31px;
+    height: 31px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    border: 1px solid #14516d;
+
+    background: #0d2b3a;
+
+    color: #63c8ee;
+    text-decoration: none;
+
+    font-size: 17px;
+
+    transition: 0.2s;
+}
+
+.arrow:hover {
+    background: #123e52;
+    transform: translateY(-2px);
+}
+
+
+/* Hover */
+
+.quiz-card:hover {
+    border-color: #1b6b8d;
+    transform: translateY(-2px);
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+    .main-container {
+        padding: 18px;
+    }
+
+    .quiz-list {
+        grid-template-columns: 1fr;
+    }
+
+    .top-header h1 {
+        font-size: 21px;
+    }
+
+    .routine {
+        display: none;
+    }
+
+    .quiz-card {
+        min-height: 200px;
+    }
+}
+
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 45px auto 0;
+    padding: 20px 10px 30px;
+    color: #718798;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+}
+/* ===== সুন্দর TITLE ===== */
+
+.college-header {
+    text-align: center;
+    padding: 25px 10px 35px;
+    margin-bottom: 20px;
+}
+
+.college-header h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+
+    /* Gradient Text */
+    background: linear-gradient(
+        90deg,
+        #38bdf8,
+        #67e8f9,
+        #a5f3fc,
+        #38bdf8
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-shadow: 0 0 18px rgba(56, 189, 248, 0.25);
+
+    margin-bottom: 12px;
+}
+
+.college-header p {
+    text-align: center;
+    color: #9cc5d8;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+/* Class name একটু highlight */
+.college-header p:last-child {
+    color: #67e8f9;
+    font-weight: 600;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+    .college-header h1 {
+        font-size: 24px;
+    }
+
+    .college-header p {
+        font-size: 14px;
+    }
+}

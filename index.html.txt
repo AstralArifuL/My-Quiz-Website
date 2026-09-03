@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DMRC • QUIZ ROUTINE 2026</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main-container">
+
+    <div class="college-header">
+        <h1>ড. মাহবুবুর রহমান মোল্লা কলেজ</h1>
+        <p>কুইজ পরীক্ষা - ২০২৬</p>
+        <p>শ্রেণি: দ্বাদশ</p>
+    </div>
+
+    <div class="top-header">
+        <div class="title-row">
+            <span class="title-icon">📚</span>
+            <h2>পরীক্ষার বিষয়সমূহ</h2>
+        </div>
+
+
+        <span class="routine">Subject Routine</span>
+    </div> <div class="quiz-card">
+
+    <div class="card-top">
+      
+    </div>
+                <h3>০১ QUIZ</h3>
+                <p>উচ্চতর গণিত ২য় পত্র<br>কোড: ২৬৬</p>
+                <a href="./quiz.html?quiz=1" class="quiz-btn" target="_blank">QUIZ</a>
+            
+            
+            </div>
+
+            <div class="quiz-card">
+                <h3>০২ QUIZ</h3>
+                <p>পদার্থবিজ্ঞান ২য় পত্র<br>কোড: ১৭৫</p>
+              <a href="./quiz.html?quiz=2" class="quiz-btn" target="_blank">QUIZ</a>
+            </div>
+
+            <div class="quiz-card">
+                <h3>০৩ QUIZ</h3>
+                <p>বাংলা ২য় পত্র<br>কোড: ১০২</p>
+                <a href="./quiz.html?quiz=3" class="quiz-btn" target="_blank">QUIZ</a>
+            </div>
+
+            <div class="quiz-card">
+                <h3>০৪ QUIZ</h3>
+                <p>তথ্য ও যোগাযোগ প্রযুক্তি<br>কোড: ২৭৫</p>
+                <a href="./quiz.html?quiz=4" class="quiz-btn" target="_blank">QUIZ</a>
+            </div>
+
+            <div class="quiz-card">
+                <h3>০৫ QUIZ</h3>
+                <p>ইংরেজি ২য় পত্র<br>কোড: ১০৮</p>
+                <a href="./quiz.html?quiz=5" class="quiz-btn" target="_blank">QUIZ</a>
+            </div>
+
+            <div class="quiz-card">
+                <h3>০৬ QUIZ</h3>
+                <p>রসায়ন ২য় পত্র<br>কোড: ১৭৭</p>
+                <a href="./quiz.html?quiz=6" class="quiz-btn" target="_blank">QUIZ</a>
+            </div>
+
+            <div class="quiz-card">
+                <h3>০৭ QUIZ</h3>
+                <p>জীববিজ্ঞান ২য় পত্র<br>কোড: ১৭৯</p>
+                <a href="./quiz.html?quiz=7" class="quiz-btn" target="_blank">QUIZ</a>
+            </div>
+
+        </div>
+
+    <footer>
+        <p>Developed by ARIFUL ISLAM</p>
+        <p>• SCIENCE M-13 • DMRC</p>
+        <p>© 2026 • DMRC QUIZ EXAMINATION</p>
+    </footer>
+    </div>
+</body>
+</html>
